@@ -4,7 +4,7 @@
 
 در این پروژه زیرساخت لاجیک های Command و Query جدا می باشد ولی برای این پروژه، گزارش ها و کامند ها در قسمت Command پیاده سازی شده ، برای جلوگیری از پیچیده شدن و ...
 
-مدیریت بیزینس های حول ( Business Orchestration ) در لایه Student.Core.ApplicationService می باشد
+مدیریت بیزینس های حول دامنه ( Business Orchestration ) در لایه Student.Core.ApplicationService می باشد
 
 برای مدیریت لایه Domain و مشخصا Entity ها از الگوی Rich Domain Model استفاده شده و خیلی به رویکرد DDD توجه نشده است ( برای جلوگیری از پیچیده شدن ساختار )
 
