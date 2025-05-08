@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>MiniBlog.Core.Contracts</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\2.Core\Zamin.Core.Contracts\Zamin.Core.Contracts.csproj" />
+    <ProjectReference Include="..\Student.Core.Domain\Student.Core.Domain.csproj" />
+    <ProjectReference Include="..\Student.Core.RequestResponse\Student.Core.RequestResponse.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Students\Queries\.keep\" />
+  </ItemGroup>
+
+</Project>
