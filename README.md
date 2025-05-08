@@ -14,7 +14,7 @@
 
 کلاس های مربوط به Command Dto و Query Dto در قسمت Core -> Student.Core.RequestResponse قرار گرفته اند
 
-به ازای Action های مختلف روی Entity ها Event های مختلفی صدا زده میشود که از همین رخداد ها می توان به عنوان LogHistory را مدیریت کرد
+به ازای Action های مختلف روی Entity ها Event های مختلفی صدا زده میشود که از همین رخداد ها می توان به عنوان LogHistory استفاده کرد
 
 در این ساختار هر موجودیتی ( Command ) ها ، از یکسری فیلد ( Audit Field ) به عنوان Audit Log استفاده می کند که برای منظور Activity Log میتوان روی آنها حساب کرد که البته Full Audit نمی باشند ( مثلا Role و ... را نگه نمیدارند ، برای این منظور خاص میتوان از Event های ثبت شده در دیتابیس استفاده کرد ) | این Event ها در Schema ایی با نام ( zamin ) و با نام جدولی تحت عنوان OutBoxEventItems در دسترس می باشد
 
